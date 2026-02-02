@@ -1,6 +1,7 @@
 within Modelica_Buch.Electrical;
 
 model W_Signals
+  extends Modelica.Icons.Example;
   parameter Modelica.Units.SI.Resistance R=10 "Resistance";
   parameter Modelica.Units.SI.Inductance L=2 "Inductance";
   parameter Modelica.Units.SI.Current IRef=0.25 "Reference current";
